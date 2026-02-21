@@ -1,5 +1,5 @@
-import Icon1 from "../../Images/Icons/logo.svg"
-import Icon2 from "../../Images/Icons/icon-moon.svg"
+import Icon1 from "../../../public/Images/Icons/logo.svg"
+import Icon2 from "../../../public/Images/Icons/icon-moon.svg"
 
 export default function Header() {
 
