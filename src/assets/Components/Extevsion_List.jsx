@@ -1,5 +1,7 @@
 
-export default function Extension_List() {
+
+export default function Extension_List({onAdd}) {
+
 
     return (
 
@@ -9,11 +11,15 @@ export default function Extension_List() {
 
             <div className=" justify-around  mt-5">
 
-                <button className=" bg-red-700 hover:bg-red-900 rounded-full px-4 p-1 shadow-lg text-white">All</button>
+
+                <button className=" bg-red-600 hover:bg-red-500 rounded-full px-4 p-1 shadow-lg text-white " onClick={onAdd}>Add</button>
+                
+                <button className=" bg-red-700 hover:bg-red-600 rounded-full px-4 p-1 shadow-lg text-white ml-3">All</button>
 
                 <button className=" bg-white hover:bg-gray-200 rounded-full px-4 p-1 shadow-lg mx-3">Active</button>
 
                 <button className=" bg-white hover:bg-gray-200 rounded-full px-4 p-1 shadow-lg ">Inactive</button>
+                
 
             </div>
 
