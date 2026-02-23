@@ -1,10 +1,10 @@
-import Header from "../Components/Header"
-import Extension_List from "../Components/Extevsion_List";
+import Header from '../components/Header'
+import ExtensionList from "../components/ExtevsionList";
 import Cards from "../Components/Cards";
-import apiRequests from "../../api/api";
+import apiRequests from "../api/api";
 import { useState, useEffect } from "react";
 import "tailwindcss";
-import AddCard from "../Components/AddCardModal";
+import AddCard from "../components/AddCardModal";
 
 export default function Extension() {
 
@@ -53,7 +53,7 @@ export default function Extension() {
 
             <div className=" pt-6 px-4 md:pt-10 md:px-8"> <Header /></div>
 
-            <div className="  md:px-10"> <Extension_List onAdd={() => setIsModalOpen(true)} /> </div>
+            <div className="  md:px-10"> <ExtensionList onAdd={() => setIsModalOpen(true)} /> </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {cards.map((item, index) => (

@@ -1,4 +1,4 @@
-import Extension from './assets/Screens/Extension_Screen'
+import Extension from "./pages/ExtensionPage"
 // import './App.css'
 
 function App() {

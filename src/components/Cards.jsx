@@ -1,4 +1,5 @@
-import Switch_btn from "./Switch_btn"
+import SwitchBtn from "./SwitchBtn"
+
 export default function Cards({ logo, name, description, onDelete  }) {
 
     return (
@@ -21,7 +22,7 @@ export default function Cards({ logo, name, description, onDelete  }) {
 
                 <button className=" bg-white hover:bg-gray-200 rounded-full px-4 p-1 shadow-md border border-gray-400 font-semibold" onClick={onDelete}>Remove</button>
 
-                <Switch_btn/>
+                <SwitchBtn/>
 
             </div>
 
